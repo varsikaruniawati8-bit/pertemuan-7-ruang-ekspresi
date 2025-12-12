@@ -65,7 +65,7 @@ export default function ProjectShowcase() {
                 {[1, 2, 3].map((i) => (
                   <div className="flex items-center gap-3" key={i}>
                     <img
-                      src="src/assets/TimPembuat.png"
+                      src="/assets/TimPembuat.png"
                       className="w-10 h-10 rounded-full object-cover"
                     />
                     <div>
@@ -78,7 +78,7 @@ export default function ProjectShowcase() {
             </div>
 
             <button className="mt-6 flex items-center gap-2 bg-blue-600 text-white px-4 py-2 rounded-xl shadow">
-              <img src="src/assets/Vector.png" className="w-4" />
+              <img src="/assets/Vector.png" className="w-4" />
               Live Demo
             </button>
           </div>
@@ -86,7 +86,7 @@ export default function ProjectShowcase() {
           {/* RIGHT IMAGE */}
           <div>
             <img
-              src="src/assets/ShowCase.png"
+              src="/assets/ShowCase.png"
               className="rounded-2xl border-4 border-pink-300 w-full object-cover"
             />
           </div>

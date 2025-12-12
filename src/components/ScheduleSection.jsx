@@ -1,5 +1,4 @@
-import Kalender from "../assets/Kalender.png";
-import Jam from "../assets/Jam.png";
+
 
 export default function ScheduleSection() {
   return (
@@ -18,7 +17,7 @@ export default function ScheduleSection() {
       <div className="bg-white mt-12 rounded-3xl shadow-lg p-10 border border-gray-100">
         {/* Label */}
         <div className="text-center font-semibold text-blue-600 mb-8 flex items-center justify-center gap-3">
-          <img src={Kalender} className="w-6" />
+          <img src="/assets/Kalender.png" className="w-6" />
           Setiap Sabtu
         </div>
 
@@ -27,7 +26,7 @@ export default function ScheduleSection() {
           {/* Card 1 */}
           <div className="p-7 rounded-2xl shadow-sm border bg-gradient-to-r from-yellow-50 to-green-50">
             <h3 className="font-semibold text-base flex items-center gap-2">
-              <img src={Jam} className="w-6" />
+              <img src="/assets/Jam.png" className="w-6" />
               Sesi Pagi
             </h3>
 
@@ -43,7 +42,7 @@ export default function ScheduleSection() {
           {/* Card 2 */}
           <div className="p-7 rounded-2xl shadow-sm border bg-gradient-to-r from-yellow-50 to-blue-50">
             <h3 className="font-semibold text-base flex items-center gap-2">
-              <img src={Jam} className="w-6" />
+              <img src= "/assets/Jam.png" className="w-6" />
               Sesi Sore
             </h3>
 

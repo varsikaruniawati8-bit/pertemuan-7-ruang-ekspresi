@@ -1,4 +1,4 @@
-import Konten4 from "../assets/konten4.png";
+
 
 export default function Testimonials() {
   const testimonials = [
@@ -53,7 +53,7 @@ export default function Testimonials() {
           >
             <div className="flex items-center gap-4 mb-4">
               <img
-                src={Konten4}
+                src="/assets/konten4.png"
                 className="w-14 h-14 rounded-full object-cover"
                 alt={item.name}
               />

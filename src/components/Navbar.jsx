@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 h-16 flex items-center justify-between">
         
         <div className="flex items-center gap-2">
-          <img src="src/assets/Logonav.png" className="w-8" />
+          <img src="/assets/Logonav.png" className="w-8" />
           <span className="font-semibold text-gray-700">ruang ekspresi</span>
         </div>
   

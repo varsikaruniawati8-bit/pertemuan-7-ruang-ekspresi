@@ -8,8 +8,8 @@ export default function Footer() {
         <div className="flex flex-col items-center md:items-start text-center md:text-left w-[350px]">
 
           <div className="flex items-center gap-3 mb-5">
-            <img src="src/assets/LogoFooter.png" className="h-12" />
-            <img src="src/assets/RuangEkspresiFooter.png" className="h-8" />
+            <img src="/assets/LogoFooter.png" className="h-12" />
+            <img src="/assets/RuangEkspresiFooter.png" className="h-8" />
           </div>
 
           <p className="text-gray-200 leading-relaxed">
@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="mt-6 space-y-4 text-gray-200">
 
             <div className="flex items-start gap-3">
-              <img src="src/assets/MapsFooter.png" className="w-6 mt-1" />
+              <img src="/assets/MapsFooter.png" className="w-6 mt-1" />
               <p className="leading-snug">
                 Jl. Ringroad Selatan, Kragilan, Tamanan,
                 Kec. Banguntapan, Bantul, Daerah Istimewa Yogyakarta 55191
@@ -29,12 +29,12 @@ export default function Footer() {
             </div>
 
             <div className="flex items-center gap-3">
-              <img src="src/assets/EmailFooter.png" className="w-5" />
+              <img src="/assets/EmailFooter.png" className="w-5" />
               <p>ruang_ekspresi@webmail.uad.ac.id</p>
             </div>
 
             <div className="flex items-center gap-3">
-              <img src="src/assets/ContactFooter.png" className="w-5" />
+              <img src="/assets/ContactFooter.png" className="w-5" />
               <p>(0274) 511830</p>
             </div>
 

@@ -40,7 +40,7 @@ export default function HeroSection() {
       {/* RIGHT IMAGE */}
       <div className="flex justify-center">
         <img
-          src="src/assets/HeroSection.png"
+          src="/assets/HeroSection.png"
           className="w-64 sm:w-72 md:w-80 lg:w-[23rem] rounded-xl object-cover shadow-md"
           alt="Hero"
         />
